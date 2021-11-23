@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.jumbotron{
+    background-color: black;
+    margin-bottom: 0px;
+}
+#title{
+    padding-top: 150px;
+    padding-bottom: 150px
+}
+.spyPadding{
+    padding-top: 50px;
+}
+img{
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+    margin: auto;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 500px;
+}
+.bottom{
+    text-align: center;
+    padding: 70px 20px;
+}
+.carousel-img{
+    background-size: auto;
+    margin-top: 8px;
+}
+.owl-nav{
+    text-align: center;
+    font-size: 40px;
+}
+.active{
+    opacity: .5;
+}
+.center{
+    opacity: 1;
+    border: white 3px solid; 
+    box-shadow: 4px 0 4px rgb(255,0,0), inset 4px 0 4px rgb(255,0,0),
+    -4px 0 4px rgb(255,0,0), inset -4px 0 4px rgb(255,0,0),
+    0 4px 4px rgb(255,0,0), inset 0 4px 4px rgb(255,0,0),
+    0 -4px 4px rgb(255,0,0), inset 0 -4px 4px rgb(255,0,0);
+    text-shadow: 0px 0px 8px rgb(255,0,0);
+}
+.owl-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+}
+.text-glow{
+    text-shadow: 3px 3px 10px rgb(255,0,0);
+}
+#pccomputer{
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+@media only screen  and (min-width: 1060px) and (max-width: 1200px){
+    img{
+        max-width: 250px;
+        max-height: 250px;
+        min-width: 250px;
+        min-height: 250px;
+        margin: auto;
+    }
+}
+@media only screen  and (min-width: 779px) and (max-width: 1060px){
+    img{
+        max-width: 200px;
+        max-height: 200px;
+        min-width: 200px;
+        min-height: 200px;
+        margin: auto;
+    }
+
+}@media only screen  and (min-width: 600px) and (max-width: 779px){
+    img{
+        max-width: 150px;
+        max-height: 150px;
+        min-width: 150px;
+        min-height: 150px;
+        margin: auto;
+    }
+
+}
